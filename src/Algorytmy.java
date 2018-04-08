@@ -26,9 +26,11 @@ public class Algorytmy {
                             + "\n 2.Dzielenie wielomianu \n3. Wyznaczanie pierwiastków");
                             int wybors = in.nextInt();
                             if(wybors==1)
-                                System.out.println("Szukana liczba to " + licz.wartosc() + "\n\n");
+                                System.out.println("Szukana liczba to " + licz.wartosc(0) + "\n\n");
                             else if(wybors==2)
                             licz.dzielenie();
+                            else if(wybors==3)
+                                licz.wyznacz();
                             blad=false;
                         }else
                         {
