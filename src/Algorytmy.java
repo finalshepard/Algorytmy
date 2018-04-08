@@ -28,8 +28,7 @@ public class Algorytmy {
                             if(wybors==1)
                                 System.out.println("Szukana liczba to " + licz.wartosc() + "\n\n");
                             else if(wybors==2)
-                                System.out.println("Podzielony wielomian wynosi" + licz.dzielenie() + "\n\n");
-
+                            licz.dzielenie();
                             blad=false;
                         }else
                         {
